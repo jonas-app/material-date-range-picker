@@ -19,13 +19,13 @@
     }
   },
   "build/dist/material-date-range-picker.umd.js": {
-    "bundled": 1034930,
-    "minified": 335800,
-    "gzipped": 88871
+    "bundled": 1025450,
+    "minified": 332018,
+    "gzipped": 87338
   },
   "build/dist/material-date-range-picker.umd.min.js": {
-    "bundled": 926455,
-    "minified": 298111,
-    "gzipped": 79889
+    "bundled": 921577,
+    "minified": 296096,
+    "gzipped": 78972
   }
 }
