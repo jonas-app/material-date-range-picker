@@ -38,7 +38,7 @@
     "date-fns": "^1.29.0",
     "downshift": ">=2.2.2 < 4",
     "kalendaryo": "^1.11.1",
-    "styled-components": "^3.4.9"
+    "styled-components": ">=2 < 4"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0"
@@ -63,7 +63,8 @@
     "postrelease": "npm run build && npm publish build",
     "lint": "eslint ./src/**/*.js*",
     "lint-fix": "npm run lint -- --fix",
-    "postinstall": "node -e \"console.log('\\u001b[35m\\u001b[1mHave you installed all the peer libraries?\\u001b[22m\\u001b[39m')\""
+    "postinstall":
+      "node -e \"console.log('\\u001b[35m\\u001b[1mHave you installed all the peer libraries?\\u001b[22m\\u001b[39m')\""
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
