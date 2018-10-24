@@ -6,6 +6,7 @@ import {DateRangePicker} from 'material-date-range-picker';
 
 const Wrapper = styled.div`
   width: 350px;
+  padding: 20px;
 `;
 
 class App extends Component {
