@@ -1,26 +1,34 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import styled from 'styled-components';
+
+/*  1. Import for material date range picker */
+import {DateRangePicker} from 'material-date-range-picker';
+
+const Wrapper = styled.div`
+  width: 350px;
+`;
 
 class App extends Component {
+  /*  2. Add state handler */
+
+  state = {
+    fromDate: null,
+    toDate: null
+  };
+
+  _handleDateRangeChange = update => this.setState(update);
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Wrapper>
+        {/* 3. Add the material date range picker in your project */}
+
+        <DateRangePicker
+          fromDate={this.state.fromDate}
+          toDate={this.state.toDate}
+          onChange={this._handleDateRangeChange}
+        />
+      </Wrapper>
     );
   }
 }
