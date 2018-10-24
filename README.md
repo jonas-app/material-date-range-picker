@@ -1,6 +1,8 @@
 # Material Data Range Picker
 > Accessible date range picker for material-ui
 
+![Image showing the date picker.](material-date-range-picker.png)
+
 ### Installation
 Available as npm package.
 ```sh
