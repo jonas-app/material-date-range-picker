@@ -4,6 +4,15 @@
 ![Image showing the date picker.](material-date-range-picker.png)
 
 ### Installation
+
+The date picker is based on multiple awesome projects and requires following peer dependencies to be installed:
+
+- material-ui
+- date-fns (^1.29.0)
+- downshift
+- kalendaryo
+- styled-components
+
 Available as npm package.
 ```sh
 npm i material-date-range-picker
