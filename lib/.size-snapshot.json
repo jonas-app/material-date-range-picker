@@ -1,31 +1,31 @@
 {
   "build/dist/material-ui-pickers.cjs.js": {
-    "bundled": 20170,
-    "minified": 12668,
-    "gzipped": 3382
+    "bundled": 20211,
+    "minified": 12709,
+    "gzipped": 3388
   },
   "build/dist/material-ui-pickers.esm.js": {
-    "bundled": 19062,
-    "minified": 11692,
-    "gzipped": 3307,
+    "bundled": 19103,
+    "minified": 11733,
+    "gzipped": 3312,
     "treeshaked": {
       "rollup": {
-        "code": 9111,
+        "code": 9152,
         "import_statements": 1235
       },
       "webpack": {
-        "code": 11346
+        "code": 11387
       }
     }
   },
   "build/dist/material-date-range-picker.umd.js": {
-    "bundled": 1025450,
-    "minified": 332018,
-    "gzipped": 87338
+    "bundled": 1025491,
+    "minified": 332059,
+    "gzipped": 87344
   },
   "build/dist/material-date-range-picker.umd.min.js": {
-    "bundled": 921577,
-    "minified": 296096,
-    "gzipped": 78972
+    "bundled": 921618,
+    "minified": 296137,
+    "gzipped": 78979
   }
 }
