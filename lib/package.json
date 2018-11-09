@@ -1,6 +1,6 @@
 {
   "name": "material-date-range-picker",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "private": true,
   "description": "React components, that implements material design pickers for material-ui v1",
   "main": "dist/material-ui-pickers.cjs.js",
