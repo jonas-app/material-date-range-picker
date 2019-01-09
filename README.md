@@ -18,6 +18,15 @@ Available as npm package.
 npm i material-date-range-picker
 ```
 
+```javascript
+<DateRangePicker
+    fromDate={this.state.fromDate}  //from date
+    toDate={this.state.toDate}  //to Date
+    onChange={this._handleDateRangeChange}
+    closeDialogOnSelection    //close date dialog after selecting both from and to date
+/>
+```
+
 ### Acknowledgments
 
 https://material.angular.io/components/datepicker/overview
