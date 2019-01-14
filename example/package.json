@@ -1,6 +1,6 @@
 {
   "name": "material-date-range-picker-example",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "react": "^16.6.1",
@@ -11,7 +11,7 @@
     "date-fns": "^1.29.0",
     "downshift": "^3.1.5",
     "kalendaryo": "^1.11.1",
-    "material-date-range-picker": "^0.0.3",
+    "material-date-range-picker": "^0.1.1",
     "memoize-one": "^4.0.2",
     "prop-types": "^15.6.2",
     "styled-components": "^3.4.9"
