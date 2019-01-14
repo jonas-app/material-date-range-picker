@@ -25,7 +25,7 @@ class App extends Component {
           fromDate={this.state.fromDate}
           toDate={this.state.toDate}
           onChange={this._handleDateRangeChange}
-          closeDialogOnSelection
+          closeDialogOnSelection={false}
         />
       </Wrapper>
     );
