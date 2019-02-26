@@ -26,6 +26,7 @@ class App extends Component {
           toDate={this.state.toDate}
           onChange={this._handleDateRangeChange}
           closeDialogOnSelection={false}
+          label={"Custom Label"}
         />
       </Wrapper>
     );
